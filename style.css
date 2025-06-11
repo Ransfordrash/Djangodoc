@@ -1,0 +1,78 @@
+
+@media (prefers-reduced-motion: no-preference) { *{scroll-behavior: smooth}}
+
+html{box-sizing: border-box;
+}
+
+body{
+background: #222;
+color: #fff;
+padding: 20px;
+font-family: Montserrat;}
+
+nav{position: fixed;
+top:0;
+left: 0;
+bottom: 0;
+margin-bottom: 0;
+width: 300px;
+height: 7000px;
+background: #111111;
+z-index: 1000;
+overflow-y: auto;
+box-shadow: 0 0 10px rgb(0, 0, 0, 0.1)}
+
+main{width: calc(100vw - 300px);
+margin-left: 320px;
+top: 0;
+right:0;
+padding: 20px;
+}
+
+header{font-size: 25px}
+
+li:not([class]){
+  font-weight: bold;
+font-size: 10px ;}
+
+p,  .normal{
+  font-weight: normal;
+font-size: 10px; 
+}
+
+nav a{display: block;
+text-decoration: none;
+color: #fff;}
+
+nav > header, .nav-link{border-bottom: 0.5px solid #fff;
+padding: 20px}
+
+.nav-link:nth-last-child(1){border-bottom: none;}
+
+span{
+  padding: 2px; 
+background: rgba(153, 153, 153, 0.5);
+font-family: Monaco;
+}
+
+.normal{margin-top: 15px;}
+
+.container{padding: 20px;
+}
+
+.head{background: rgba(153, 153, 153, 0.1);
+align-items: right;
+padding: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;}
+
+.code-box{background: black;
+padding: 20px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;}
+
+button{
+  background: none;
+  border: none;
+  color: #fff;
+}
